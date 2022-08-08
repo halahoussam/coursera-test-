@@ -19,7 +19,7 @@ hello frank
 hello larry
 Hello Paula
 Hi Laura
-Bye Jim
+Bye jin
 warning!!! warning!!!
 The code is currently not working! It's your job to make it work
 As described in the requirements and steps to complete it
@@ -31,15 +31,14 @@ warning!!! warning!!!
 // Wrap the entire contents of script.js inside IIFE
 // See Lecture 52, Part 2
 // (Note, step 2 will be done in the SpeakHello.js file.)
-(Function(){
-names var=["Jacob","John","Jane","Jason","Paul","Frank","Larry","Paula","Laura","Jim"];
-
+var names =["Jacob","John","Jane","Jason","Paul","Frank","Larry","Paula","Laura","Jim"];
 // Step 10: (Nothing to do. It's already done for you)
 // loop over the array of names and say either 'hello' or 'goodbye'
 // using the helloSpeaker or byeSpeaker method.
 // See Lecture 50, Part 1
-for(var i=0;i<names.length;i++){
-
+for (var i = 0;i < names.lenght; i++) {
+ concle.log("hello"+ names[i]);
+}
 // Step 11: (Nothing to do. It's already done for you)
 // Retrieve the first character of the current name in the loop.
 // Use the 'charAt' function for the String object. What we are looking for
@@ -58,5 +57,4 @@ if(first character==='j'){
 Via eSpeaker.pronunciation(nouns[i]);
 }else{
 hello_pronounce(nouns[i]);}
-}
-})();
+();
