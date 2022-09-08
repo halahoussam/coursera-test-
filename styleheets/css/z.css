@@ -1,0 +1,45 @@
+body {
+  background-color:#bcd6f1;
+}
+.text-header {
+  position: relative;
+  display: inline;
+  color:#673ab7;
+  font-size: 0.8em;
+}
+.image-control {
+  padding-top: 3%;
+}
+.expand-holder {
+  display: none;
+  padding: 5%;
+  padding-right: 2%;
+  width: 60%;
+  max-height: 500px;
+  margin: 0 auto;
+  padding-top: 0;
+  float: left;
+}
+.QT {
+  padding-left: 5%;
+}
+img:hover{
+border:3px solid black;
+  }
+header {
+   background-color:#e1bce7;
+}
+
+@media only screen and (max-width:1200px) {
+  .expand-holder {
+    float: none;
+  }
+}
+@media only screen and (max-width:850px){
+  body{
+ background-color:#e1bce7;
+  }
+  .expand-holder {
+    float: none;
+  }
+}
